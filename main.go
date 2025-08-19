@@ -2,11 +2,25 @@ package main
 
 import "unsafe"
 
-var GPIO = (*GPIO_Type)(unsafe.Pointer(uintptr(0x3ff44000)))
-var IO_MUX = (*IO_MUX_Type)(unsafe.Pointer(uintptr(0x3ff49000)))
+// 直接定义硬件地址常量，避免创建全局变量
+const (
+	GPIO_BASE     = 0x3ff44000
+	IO_MUX_BASE   = 0x3ff49000
+	RTC_CNTL_BASE = 0x3ff48000
+)
 
-// Real-Time Clock Control
-var RTC_CNTL = (*RTC_CNTL_Type)(unsafe.Pointer(uintptr(0x3ff48000)))
+// 获取外设指针的函数
+func getGPIO() *GPIO_Type {
+	return (*GPIO_Type)(unsafe.Pointer(uintptr(GPIO_BASE)))
+}
+
+func getIOMUX() *IO_MUX_Type {
+	return (*IO_MUX_Type)(unsafe.Pointer(uintptr(IO_MUX_BASE)))
+}
+
+func getRTCCNTL() *RTC_CNTL_Type {
+	return (*RTC_CNTL_Type)(unsafe.Pointer(uintptr(RTC_CNTL_BASE)))
+}
 
 const (
 	LLGoFiles   = "esp32.S"
@@ -15,7 +29,7 @@ const (
 
 func enableButton() {
 	const btnGPIO = 34
-	var btnGPIOMux = &IO_MUX.GPIO35
+	var btnGPIOMux = &getIOMUX().GPIO35
 
 	var muxConfig uint32 // The mux configuration.
 
@@ -31,14 +45,14 @@ func enableButton() {
 	btnGPIOMux.Set(muxConfig)
 
 	// gpio input enable
-	GPIO.ENABLE1_W1TC.Set(1 << (btnGPIO - 32))
+	getGPIO().ENABLE1_W1TC.Set(1 << (btnGPIO - 32))
 
 }
 
 func getButtonStatus() bool {
 	const btnGPIO = 34
 
-	return GPIO.IN1.Get()&(1<<(btnGPIO-32)) != 0
+	return getGPIO().IN1.Get()&(1<<(btnGPIO-32)) != 0
 }
 
 func clearbss() {
@@ -50,14 +64,20 @@ func clearbss() {
 }
 
 func main() {
+	// 初始化UART用于调试输出
+	initUART()
+	printStartup()
+
 	// Disable the protection on the watchdog timer (needed when started from
 	// the bootloader).
-	RTC_CNTL.WDTWPROTECT.Set(0x050D83AA1)
+	getRTCCNTL().WDTWPROTECT.Set(0x50D83AA1)
+	printOK()
 
 	// Disable both watchdog timers that are enabled by default on startup.
 	// Note that these watchdogs can be protected, but the ROM bootloader
 	// doesn't seem to protect them.
-	RTC_CNTL.WDTCONFIG0.Set(0)
+	getRTCCNTL().WDTCONFIG0.Set(0)
+	printOK()
 
 	// Switch SoC clock source to PLL (instead of the default which is XTAL).
 	// This switches the CPU (and APB) clock from 40MHz to 80MHz.
@@ -68,17 +88,22 @@ func main() {
 	//   RTC_CNTL_CLK_CONF_CK8M_DIV:          divide by 256 (default)
 	// The only real change made here is modifying RTC_CNTL_CLK_CONF_SOC_CLK_SEL,
 	// but setting a fixed value produces smaller code.
-	RTC_CNTL.CLK_CONF.Set((1 << RTC_CNTL_CLK_CONF_SOC_CLK_SEL_Pos) |
+	getRTCCNTL().CLK_CONF.Set((1 << RTC_CNTL_CLK_CONF_SOC_CLK_SEL_Pos) |
 		(2 << RTC_CNTL_CLK_CONF_CK8M_DIV_SEL_Pos) |
 		(1 << RTC_CNTL_CLK_CONF_DIG_CLK8M_D256_EN_Pos) |
 		(1 << RTC_CNTL_CLK_CONF_CK8M_DIV_Pos))
-
-	u.CLKDIV.Set(peripheralClock / 115200)
+	printOK()
 
 	clearbss()
+	printOK()
 
+	enableButton()
+	printOK()
+
+	printDone()
+
+	// 主循环 - 可以添加按钮状态检测
 	for {
-		writeByte('c')
+		// 可以在这里添加按钮状态检测和其他功能
 	}
-
 }

@@ -10,6 +10,7 @@
 .section .text.call_start_cpu0
 1:
     .long _stack_top
+
 .global call_start_cpu0
 call_start_cpu0:
     // We need to set the stack pointer to a different value. This is somewhat

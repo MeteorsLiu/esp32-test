@@ -6,25 +6,85 @@ import (
 )
 
 //go:linkname _sbss
-var _sbss [0]byte
+var _sbss int
 
 //go:linkname _ebss
-var _ebss [0]byte
+var _ebss int
 
 const peripheralClock = 80000000 // 80MHz
 
-var (
-	u = (*UART_Type)(unsafe.Pointer(uintptr(0x3ff40000)))
-)
+// 获取UART指针的函数
+func getUART() *UART_Type {
+	return (*UART_Type)(unsafe.Pointer(uintptr(0x3ff40000)))
+}
 
 func writeByte(b byte) {
-	for (u.STATUS.Get()>>16)&0xff >= 128 {
+	uart := getUART()
+	for (uart.STATUS.Get()>>16)&0xff >= 128 {
 		// Read UART_TXFIFO_CNT from the status register, which indicates how
 		// many bytes there are in the transmit buffer. Wait until there are
 		// less than 128 bytes in this buffer (the default buffer size).
 	}
-	// Write to the TX_FIFO register.
-	(*volatile.Register8)(unsafe.Add(unsafe.Pointer(u), 0x200C0000)).Set(b)
+	// Write to the FIFO register (offset 0x0)
+	uart.FIFO.Set(uint32(b))
+}
+
+// 初始化UART
+func initUART() {
+	uart := getUART()
+
+	// 设置波特率为115200
+	// 波特率 = 时钟频率 / (CLKDIV + 1)
+	// CLKDIV = (时钟频率 / 波特率) - 1
+	uart.CLKDIV.Set(peripheralClock/115200 - 1)
+
+	// 配置UART参数：8位数据，无奇偶校验，1个停止位
+	uart.CONF0.Set(0x800001c) // 8位数据位，无奇偶校验，1个停止位
+
+	// 重置FIFO
+	uart.CONF0.SetBits(0x60000)   // 设置RXFIFO_RST和TXFIFO_RST位
+	uart.CONF0.ClearBits(0x60000) // 清除重置位
+}
+
+// 便捷函数 - 输出预定义消息（避免使用string和数组）
+func printStartup() {
+	writeByte('E')
+	writeByte('S')
+	writeByte('P')
+	writeByte('3')
+	writeByte('2')
+	writeByte(' ')
+	writeByte('s')
+	writeByte('t')
+	writeByte('a')
+	writeByte('r')
+	writeByte('t')
+	writeByte('\r')
+	writeByte('\n')
+}
+
+func printOK() {
+	writeByte('O')
+	writeByte('K')
+	writeByte('\r')
+	writeByte('\n')
+}
+
+func printError() {
+	writeByte('E')
+	writeByte('R')
+	writeByte('R')
+	writeByte('\r')
+	writeByte('\n')
+}
+
+func printDone() {
+	writeByte('D')
+	writeByte('O')
+	writeByte('N')
+	writeByte('E')
+	writeByte('\r')
+	writeByte('\n')
 }
 
 // UART (Universal Asynchronous Receiver-Transmitter) Controller 0
