@@ -94,18 +94,18 @@ func main() {
 		(1 << RTC_CNTL_CLK_CONF_CK8M_DIV_Pos))
 	printOK()
 
-	clearbss()
-	printOK()
+	// clearbss()
+	// printOK()
 
-	enableButton()
-	printOK()
+	// enableButton()
+	// printOK()
 
-	printDone()
+	// printDone()
 
-	// 主循环 - 可以添加按钮状态检测
-	for {
-		if getButtonStatus() {
-			printError()
-		}
-	}
+	// // 主循环 - 可以添加按钮状态检测
+	// for {
+	// 	if getButtonStatus() {
+	// 		printError()
+	// 	}
+	// }
 }
