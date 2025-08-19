@@ -1,0 +1,198 @@
+     VMA      LMA     Size Align Out     In      Symbol
+40080000 40080000      223     4 .text
+40080000 40080000        8     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-desp32.S.o:(.literal.call_start_cpu0)
+40080008 40080008       43     1         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-desp32.S.o:(.text.call_start_cpu0)
+4008000c 4008000c        0     1                 call_start_cpu0
+4008004c 4008004c        a     4         /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o:(.text.llgo-test/volatile.(*Register32).Get)
+4008004c 4008004c        a     1                 llgo-test/volatile.(*Register32).Get
+40080058 40080058        d     4         /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o:(.text.llgo-test/volatile.(*Register32).Set)
+40080058 40080058        d     1                 llgo-test/volatile.(*Register32).Set
+40080068 40080068        e     4         /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o:(.text.llgo-test/volatile.(*Register8).Set)
+40080068 40080068        e     1                 llgo-test/volatile.(*Register8).Set
+40080078 40080078        8     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.literal.llgo-test.clearbss)
+40080080 40080080       27     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.text.llgo-test.clearbss)
+40080080 40080080       27     1                 llgo-test.clearbss
+400800a8 400800a8       24     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.literal.llgo-test.init)
+400800cc 400800cc       3c     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.text.llgo-test.init)
+400800cc 400800cc       3c     1                 llgo-test.init
+40080108 40080108       1c     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.literal.llgo-test.main)
+40080124 40080124       5e     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.text.llgo-test.main)
+40080124 40080124       5e     1                 llgo-test.main
+40080184 40080184       10     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.literal.llgo-test.writeByte)
+40080194 40080194       3c     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.text.llgo-test.writeByte)
+40080194 40080194       3c     1                 llgo-test.writeByte
+400801d0 400801d0        5     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o:(.text.runtime.init)
+400801d0 400801d0        5     1                 runtime.init
+400801d8 400801d8        4     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o:(.literal._start)
+400801dc 400801dc        f     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o:(.text._start)
+400801dc 400801dc        f     1                 _start
+400801ec 400801ec       14     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o:(.literal.main)
+40080200 40080200       23     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o:(.text.main)
+40080200 40080200       23     1                 main
+3ffae000 3ffae000     1000     1 .stack
+3ffae000 3ffae000        0     1         . = ALIGN ( 16 )
+3ffae000 3ffae000     1000     1         . += _stack_size
+3ffaf000 3ffaf000        0     1         _stack_top = .
+3ffaf000 3ffaf000        0     4 .data
+3ffaf000 3ffaf000        0     1         _sdata = ABSOLUTE ( . )
+3ffaf000 3ffaf000        0     1         _edata = ABSOLUTE ( . )
+3ffaf000 3ffaf000        0     1 
+3ffaf000 3ffaf000       1c     8 .bss
+3ffaf000 3ffaf000        0     1         . = ALIGN ( 4 )
+3ffaf000 3ffaf000        0     1         _sbss = ABSOLUTE ( . )
+3ffaf000 3ffaf000        4     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.bss.llgo-test.GPIO)
+3ffaf000 3ffaf000        4     1                 llgo-test.GPIO
+3ffaf004 3ffaf004        4     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.bss.llgo-test.IO_MUX)
+3ffaf004 3ffaf004        4     1                 llgo-test.IO_MUX
+3ffaf008 3ffaf008        4     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.bss.llgo-test.RTC_CNTL)
+3ffaf008 3ffaf008        4     1                 llgo-test.RTC_CNTL
+3ffaf00c 3ffaf00c        0     1         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.bss.llgo-test._ebss)
+3ffaf00c 3ffaf00c        0     1                 llgo-test._ebss
+3ffaf00c 3ffaf00c        0     1         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.bss.llgo-test._sbss)
+3ffaf00c 3ffaf00c        0     1                 llgo-test._sbss
+3ffaf00c 3ffaf00c        1     1         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.bss.llgo-test.init$guard)
+3ffaf00c 3ffaf00c        1     1                 llgo-test.init$guard
+3ffaf010 3ffaf010        4     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o:(.bss.llgo-test.u)
+3ffaf010 3ffaf010        4     1                 llgo-test.u
+3ffaf014 3ffaf014        4     4         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o:(.bss.__llgo_argc)
+3ffaf014 3ffaf014        4     1                 __llgo_argc
+3ffaf018 3ffaf018        4     8         /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o:(.bss.__llgo_argv)
+3ffaf018 3ffaf018        4     1                 __llgo_argv
+3ffaf01c 3ffaf01c        0     1         . = ALIGN ( 4 )
+3ffaf01c 3ffaf01c        0     1         _ebss = ABSOLUTE ( . )
+3ffaf01c 3ffaf01c        0     1 _globals_start = _sdata
+3ffaf01c 3ffaf01c        0     1 _globals_end = _ebss
+3ffaf01c 3ffaf01c        0     1 _heap_start = _ebss
+3ffaf01c 3ffaf01c        0     1 _heap_end = ORIGIN ( DRAM ) + LENGTH ( DRAM )
+3ffaf01c 3ffaf01c        0     1 _stack_size = 4K
+3ffaf01c 3ffaf01c        0     1 memcpy = 0x4000c2c8
+3ffaf01c 3ffaf01c        0     1 memmove = 0x4000c3c0
+3ffaf01c 3ffaf01c        0     1 memset = 0x4000c44c
+3ffaf01c 3ffaf01c        0     1 __absvdi2 = 0x4006387c
+3ffaf01c 3ffaf01c        0     1 __absvsi2 = 0x40063868
+3ffaf01c 3ffaf01c        0     1 __adddf3 = 0x40002590
+3ffaf01c 3ffaf01c        0     1 __addsf3 = 0x400020e8
+3ffaf01c 3ffaf01c        0     1 __addvdi3 = 0x40002cbc
+3ffaf01c 3ffaf01c        0     1 __addvsi3 = 0x40002c98
+3ffaf01c 3ffaf01c        0     1 __ashldi3 = 0x4000c818
+3ffaf01c 3ffaf01c        0     1 __ashrdi3 = 0x4000c830
+3ffaf01c 3ffaf01c        0     1 __bswapdi2 = 0x40064b08
+3ffaf01c 3ffaf01c        0     1 __bswapsi2 = 0x40064ae0
+3ffaf01c 3ffaf01c        0     1 __clrsbdi2 = 0x40064b7c
+3ffaf01c 3ffaf01c        0     1 __clrsbsi2 = 0x40064b64
+3ffaf01c 3ffaf01c        0     1 __clzdi2 = 0x4000ca50
+3ffaf01c 3ffaf01c        0     1 __clzsi2 = 0x4000c7e8
+3ffaf01c 3ffaf01c        0     1 __cmpdi2 = 0x40063820
+3ffaf01c 3ffaf01c        0     1 __ctzdi2 = 0x4000ca64
+3ffaf01c 3ffaf01c        0     1 __ctzsi2 = 0x4000c7f0
+3ffaf01c 3ffaf01c        0     1 __divdc3 = 0x400645a4
+3ffaf01c 3ffaf01c        0     1 __divdf3 = 0x40002954
+3ffaf01c 3ffaf01c        0     1 __divdi3 = 0x4000ca84
+3ffaf01c 3ffaf01c        0     1 __divsi3 = 0x4000c7b8
+3ffaf01c 3ffaf01c        0     1 __eqdf2 = 0x400636a8
+3ffaf01c 3ffaf01c        0     1 __eqsf2 = 0x40063374
+3ffaf01c 3ffaf01c        0     1 __extendsfdf2 = 0x40002c34
+3ffaf01c 3ffaf01c        0     1 __ffsdi2 = 0x4000ca2c
+3ffaf01c 3ffaf01c        0     1 __ffssi2 = 0x4000c804
+3ffaf01c 3ffaf01c        0     1 __fixdfdi = 0x40002ac4
+3ffaf01c 3ffaf01c        0     1 __fixdfsi = 0x40002a78
+3ffaf01c 3ffaf01c        0     1 __fixsfdi = 0x4000244c
+3ffaf01c 3ffaf01c        0     1 __fixsfsi = 0x4000240c
+3ffaf01c 3ffaf01c        0     1 __fixunsdfsi = 0x40002b30
+3ffaf01c 3ffaf01c        0     1 __fixunssfdi = 0x40002504
+3ffaf01c 3ffaf01c        0     1 __fixunssfsi = 0x400024ac
+3ffaf01c 3ffaf01c        0     1 __floatdidf = 0x4000c988
+3ffaf01c 3ffaf01c        0     1 __floatdisf = 0x4000c8c0
+3ffaf01c 3ffaf01c        0     1 __floatsidf = 0x4000c944
+3ffaf01c 3ffaf01c        0     1 __floatsisf = 0x4000c870
+3ffaf01c 3ffaf01c        0     1 __floatundidf = 0x4000c978
+3ffaf01c 3ffaf01c        0     1 __floatundisf = 0x4000c8b0
+3ffaf01c 3ffaf01c        0     1 __floatunsidf = 0x4000c938
+3ffaf01c 3ffaf01c        0     1 __floatunsisf = 0x4000c864
+3ffaf01c 3ffaf01c        0     1 __gcc_bcmp = 0x40064a70
+3ffaf01c 3ffaf01c        0     1 __gedf2 = 0x40063768
+3ffaf01c 3ffaf01c        0     1 __gesf2 = 0x4006340c
+3ffaf01c 3ffaf01c        0     1 __gtdf2 = 0x400636dc
+3ffaf01c 3ffaf01c        0     1 __gtsf2 = 0x400633a0
+3ffaf01c 3ffaf01c        0     1 __ledf2 = 0x40063704
+3ffaf01c 3ffaf01c        0     1 __lesf2 = 0x400633c0
+3ffaf01c 3ffaf01c        0     1 __lshrdi3 = 0x4000c84c
+3ffaf01c 3ffaf01c        0     1 __ltdf2 = 0x40063790
+3ffaf01c 3ffaf01c        0     1 __ltsf2 = 0x4006342c
+3ffaf01c 3ffaf01c        0     1 __moddi3 = 0x4000cd4c
+3ffaf01c 3ffaf01c        0     1 __modsi3 = 0x4000c7c0
+3ffaf01c 3ffaf01c        0     1 __muldc3 = 0x40063c90
+3ffaf01c 3ffaf01c        0     1 __muldf3 = 0x4006358c
+3ffaf01c 3ffaf01c        0     1 __muldi3 = 0x4000c9fc
+3ffaf01c 3ffaf01c        0     1 __mulsf3 = 0x400632c8
+3ffaf01c 3ffaf01c        0     1 __mulsi3 = 0x4000c7b0
+3ffaf01c 3ffaf01c        0     1 __mulvdi3 = 0x40002d78
+3ffaf01c 3ffaf01c        0     1 __mulvsi3 = 0x40002d60
+3ffaf01c 3ffaf01c        0     1 __nedf2 = 0x400636a8
+3ffaf01c 3ffaf01c        0     1 __negdf2 = 0x400634a0
+3ffaf01c 3ffaf01c        0     1 __negdi2 = 0x4000ca14
+3ffaf01c 3ffaf01c        0     1 __negsf2 = 0x400020c0
+3ffaf01c 3ffaf01c        0     1 __negvdi2 = 0x40002e98
+3ffaf01c 3ffaf01c        0     1 __negvsi2 = 0x40002e78
+3ffaf01c 3ffaf01c        0     1 __nesf2 = 0x40063374
+3ffaf01c 3ffaf01c        0     1 __nsau_data = 0x3ff96544
+3ffaf01c 3ffaf01c        0     1 __paritysi2 = 0x40002f3c
+3ffaf01c 3ffaf01c        0     1 __popcount_tab = 0x3ff96544
+3ffaf01c 3ffaf01c        0     1 __popcountdi2 = 0x40002ef8
+3ffaf01c 3ffaf01c        0     1 __popcountsi2 = 0x40002ed0
+3ffaf01c 3ffaf01c        0     1 __powidf2 = 0x400638e4
+3ffaf01c 3ffaf01c        0     1 __subdf3 = 0x400026e4
+3ffaf01c 3ffaf01c        0     1 __subsf3 = 0x400021d0
+3ffaf01c 3ffaf01c        0     1 __subvdi3 = 0x40002d20
+3ffaf01c 3ffaf01c        0     1 __subvsi3 = 0x40002cf8
+3ffaf01c 3ffaf01c        0     1 __truncdfsf2 = 0x40002b90
+3ffaf01c 3ffaf01c        0     1 __ucmpdi2 = 0x40063840
+3ffaf01c 3ffaf01c        0     1 __udiv_w_sdiv = 0x40064bec
+3ffaf01c 3ffaf01c        0     1 __udivdi3 = 0x4000cff8
+3ffaf01c 3ffaf01c        0     1 __udivmoddi4 = 0x40064bf4
+3ffaf01c 3ffaf01c        0     1 __udivsi3 = 0x4000c7c8
+3ffaf01c 3ffaf01c        0     1 __umoddi3 = 0x4000d280
+3ffaf01c 3ffaf01c        0     1 __umodsi3 = 0x4000c7d0
+3ffaf01c 3ffaf01c        0     1 __umulsidi3 = 0x4000c7d8
+3ffaf01c 3ffaf01c        0     1 __unorddf2 = 0x400637f4
+3ffaf01c 3ffaf01c        0     1 __unordsf2 = 0x40063478
+       0        0       68     1 .comment
+       0        0       68     1         <internal>:(.comment)
+       0        0      7e0     4 .symtab
+       0        0      7e0     4         <internal>:(.symtab)
+       0        0       3c     1 .shstrtab
+       0        0       3c     1         <internal>:(.shstrtab)
+       0        0      589     1 .strtab
+       0        0      589     1         <internal>:(.strtab)
+
+Cross Reference Table
+
+Symbol                                            File
+llgo-test/volatile.(*Register32).Get              /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o
+                                                  /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+llgo-test/volatile.(*Register32).Set              /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o
+                                                  /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+llgo-test/volatile.(*Register8).Set               /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o
+                                                  /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+_stack_top                                        /Users/haolan/project/t1/llgo/targets/esp32.ld:45
+                                                  /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-desp32.S.o
+call_start_cpu0                                   /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-desp32.S.o
+_start                                            /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o
+                                                  /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-desp32.S.o
+llgo-test._sbss                                   /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+llgo-test._ebss                                   /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+llgo-test.clearbss                                /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+llgo-test.IO_MUX                                  /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+llgo-test.GPIO                                    /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+llgo-test.init$guard                              /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+llgo-test.RTC_CNTL                                /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+llgo-test.u                                       /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+llgo-test.init                                    /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+                                                  /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o
+llgo-test.writeByte                               /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+llgo-test.main                                    /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o
+                                                  /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o
+runtime.init                                      /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o
+main                                              /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o
+__llgo_argc                                       /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o
+__llgo_argv                                       /Users/haolan/Library/Caches/go-build/11/11fa09f47a7ee5a8c3078fc5abb61721b9e4096fc1758a99a7b017dfbaace4ae-d.o-main.o
