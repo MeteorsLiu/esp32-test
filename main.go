@@ -104,6 +104,8 @@ func main() {
 
 	// 主循环 - 可以添加按钮状态检测
 	for {
-		// 可以在这里添加按钮状态检测和其他功能
+		if getButtonStatus() {
+			printError()
+		}
 	}
 }
