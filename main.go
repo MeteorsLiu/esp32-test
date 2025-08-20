@@ -1,13 +1,20 @@
 package main
 
-import "unsafe"
+import (
+	"unsafe"
+)
 
 // 直接定义硬件地址常量，避免创建全局变量
 const (
 	GPIO_BASE     = 0x3ff44000
 	IO_MUX_BASE   = 0x3ff49000
 	RTC_CNTL_BASE = 0x3ff48000
+	TIMG0_BASE    = 0x3ff5f000
 )
+
+func getTIMG() *TIMG_Type {
+	return (*TIMG_Type)(unsafe.Pointer(uintptr(TIMG0_BASE)))
+}
 
 // 获取外设指针的函数
 func getGPIO() *GPIO_Type {
@@ -27,9 +34,15 @@ const (
 	LLGoPackage = "link"
 )
 
+//go:linkname sbss _sbss
+var sbss [0]byte
+
+//go:linkname ebss _ebss
+var ebss [0]byte
+
 func enableButton() {
 	const btnGPIO = 34
-	var btnGPIOMux = &getIOMUX().GPIO35
+	var btnGPIOMux = &getIOMUX().GPIO34
 
 	var muxConfig uint32 // The mux configuration.
 
@@ -56,8 +69,8 @@ func getButtonStatus() bool {
 }
 
 func clearbss() {
-	ptr := unsafe.Pointer(&_sbss)
-	for ptr != unsafe.Pointer(&_ebss) {
+	ptr := unsafe.Pointer(&sbss)
+	for ptr != unsafe.Pointer(&ebss) {
 		*(*uint32)(ptr) = 0
 		ptr = unsafe.Add(ptr, 4)
 	}
@@ -79,6 +92,9 @@ func main() {
 	getRTCCNTL().WDTCONFIG0.Set(0)
 	printOK()
 
+	getTIMG().WDTCONFIG0.Set(0)
+	printOK()
+
 	// Switch SoC clock source to PLL (instead of the default which is XTAL).
 	// This switches the CPU (and APB) clock from 40MHz to 80MHz.
 	// Options:
@@ -94,18 +110,27 @@ func main() {
 		(1 << RTC_CNTL_CLK_CONF_CK8M_DIV_Pos))
 	printOK()
 
-	// clearbss()
-	// printOK()
+	clearbss()
+	printOK()
 
-	// enableButton()
-	// printOK()
+	getTIMG().T0CONFIG.Set(TIMG_T0CONFIG_EN | TIMG_T0CONFIG_INCREASE | 2<<TIMG_T0CONFIG_DIVIDER_Pos)
+	// esp.TIMG0.T0CONFIG.Set(1 << esp.TIMG_T0CONFIG_T0_DIVCNT_RST_Pos)
+	// esp.TIMG0.T0CONFIG.Set(esp.TIMG_T0CONFIG_T0_EN)
 
-	// printDone()
+	// Set the timer counter value to 0.
+	getTIMG().T0LOADLO.Set(0)
+	getTIMG().T0LOADHI.Set(0)
+	getTIMG().T0LOAD.Set(0)
+
+	enableButton()
+	printOK()
 
 	// // 主循环 - 可以添加按钮状态检测
-	// for {
-	// 	if getButtonStatus() {
-	// 		printError()
-	// 	}
-	// }
+	for {
+		if getButtonStatus() {
+			printHigh()
+		} else {
+			printLow()
+		}
+	}
 }
