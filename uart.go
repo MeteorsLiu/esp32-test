@@ -5,12 +5,6 @@ import (
 	"unsafe"
 )
 
-//go:linkname _sbss
-var _sbss int
-
-//go:linkname _ebss
-var _ebss int
-
 const peripheralClock = 80000000 // 80MHz
 
 // 获取UART指针的函数
@@ -85,6 +79,136 @@ func printDone() {
 	writeByte('E')
 	writeByte('\r')
 	writeByte('\n')
+}
+
+func printHigh() {
+	writeByte('H')
+	writeByte('I')
+	writeByte('G')
+	writeByte('H')
+	writeByte('\r')
+	writeByte('\n')
+}
+
+func printLow() {
+	writeByte('L')
+	writeByte('O')
+	writeByte('W')
+	writeByte('\r')
+	writeByte('\n')
+}
+
+// 将单个十六进制数字转换为ASCII字符
+func hexDigitToChar(digit uint8) uint8 {
+	if digit < 10 {
+		return 0x30 + digit // '0' = 0x30
+	}
+	return 0x41 + (digit - 10) // 'A' = 0x41
+}
+
+// 将int32转换为16进制字符串并按byte输出到UART
+func printInt32Hex(value int32) {
+	// 转换为uint32以便进行位操作
+	uvalue := uint32(value)
+
+	// 输出"0x"前缀
+	writeByte(0x30) // '0'
+	writeByte(0x78) // 'x'
+
+	// 从最高位开始，每4位转换为一个十六进制字符
+	for i := uint32(0); i < 8; i++ {
+		// 提取第i个十六进制位（从高位开始）
+		digit := uint8((uvalue >> ((7 - i) * 4)) & 0xF)
+		writeByte(hexDigitToChar(digit))
+	}
+}
+
+// 将int16转换为16进制字符串并按byte输出到UART
+func printInt16Hex(value int16) {
+	// 转换为uint16以便进行位操作
+	uvalue := uint16(value)
+
+	// 输出"0x"前缀
+	writeByte(0x30) // '0'
+	writeByte(0x78) // 'x'
+
+	// 从最高位开始，每4位转换为一个十六进制字符
+	for i := uint32(0); i < 4; i++ {
+		// 提取第i个十六进制位（从高位开始）
+		digit := uint8((uvalue >> ((3 - i) * 4)) & 0xF)
+		writeByte(hexDigitToChar(digit))
+	}
+}
+
+// 将int8转换为16进制字符串并按byte输出到UART
+func printInt8Hex(value int8) {
+	// 转换为uint8以便进行位操作
+	uvalue := uint8(value)
+
+	// 输出"0x"前缀
+	writeByte(0x30) // '0'
+	writeByte(0x78) // 'x'
+
+	// 输出高4位
+	digit := (uvalue >> 4) & 0xF
+	writeByte(hexDigitToChar(digit))
+
+	// 输出低4位
+	digit = uvalue & 0xF
+	writeByte(hexDigitToChar(digit))
+}
+
+// 通用的int转16进制输出函数（默认为int32）
+func printIntHex(value int) {
+	printInt32Hex(int32(value))
+}
+
+// 将uint32按字节输出（大端序）
+func printUint32BytesBE(value uint32) {
+	writeByte(uint8((value >> 24) & 0xFF)) // 最高字节
+	writeByte(uint8((value >> 16) & 0xFF))
+	writeByte(uint8((value >> 8) & 0xFF))
+	writeByte(uint8(value & 0xFF)) // 最低字节
+}
+
+// 将uint32按字节输出（小端序）
+func printUint32BytesLE(value uint32) {
+	writeByte(uint8(value & 0xFF)) // 最低字节
+	writeByte(uint8((value >> 8) & 0xFF))
+	writeByte(uint8((value >> 16) & 0xFF))
+	writeByte(uint8((value >> 24) & 0xFF)) // 最高字节
+}
+
+// 将int32按字节输出（大端序）
+func printInt32BytesBE(value int32) {
+	printUint32BytesBE(uint32(value))
+}
+
+// 将int32按字节输出（小端序）
+func printInt32BytesLE(value int32) {
+	printUint32BytesLE(uint32(value))
+}
+
+// 将uint16按字节输出（大端序）
+func printUint16BytesBE(value uint16) {
+	writeByte(uint8((value >> 8) & 0xFF)) // 高字节
+	writeByte(uint8(value & 0xFF))        // 低字节
+}
+
+// 将uint16按字节输出（小端序）
+func printUint16BytesLE(value uint16) {
+	writeByte(uint8(value & 0xFF))        // 低字节
+	writeByte(uint8((value >> 8) & 0xFF)) // 高字节
+}
+
+// 将int16按字节输出（大端序）
+func printInt16BytesBE(value int16) {
+	printUint16BytesBE(uint16(value))
+}
+
+// 将int16按字节输出（小端序）
+func printInt16BytesLE(value int16) {
+	printUint16BytesLE(uint16(value))
 }
 
 // UART (Universal Asynchronous Receiver-Transmitter) Controller 0
