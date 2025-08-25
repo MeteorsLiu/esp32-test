@@ -2,6 +2,8 @@ package main
 
 import (
 	"unsafe"
+
+	"github.com/goplus/lib/c"
 )
 
 // 直接定义硬件地址常量，避免创建全局变量
@@ -28,11 +30,6 @@ func getIOMUX() *IO_MUX_Type {
 func getRTCCNTL() *RTC_CNTL_Type {
 	return (*RTC_CNTL_Type)(unsafe.Pointer(uintptr(RTC_CNTL_BASE)))
 }
-
-const (
-	LLGoFiles   = "esp32.S"
-	LLGoPackage = "link"
-)
 
 //go:linkname sbss _sbss
 var sbss [0]byte
@@ -69,31 +66,42 @@ func getButtonStatus() bool {
 }
 
 func clearbss() {
-	ptr := unsafe.Pointer(&sbss)
-	for ptr != unsafe.Pointer(&ebss) {
-		*(*uint32)(ptr) = 0
-		ptr = unsafe.Add(ptr, 4)
+
+	sbssPtr := unsafe.Pointer(&sbss)
+	ebssPtr := unsafe.Pointer(&ebss)
+	for ptr := sbssPtr; ptr != ebssPtr; ptr = unsafe.Add(ptr, 4) {
+		val := *(*uint32)(ptr)
+		printIntHex(int(val))
+	}
+
+	size := uintptr(ebssPtr) - uintptr(sbssPtr)
+
+	c.Memset(sbssPtr, 0, size)
+
+	printOK()
+
+	for ptr := sbssPtr; ptr != ebssPtr; ptr = unsafe.Add(ptr, 4) {
+		val := *(*uint32)(ptr)
+		printIntHex(int(val))
 	}
 }
 
 func main() {
+
 	// 初始化UART用于调试输出
 	initUART()
-	printStartup()
 
+	clearbss()
 	// Disable the protection on the watchdog timer (needed when started from
 	// the bootloader).
 	getRTCCNTL().WDTWPROTECT.Set(0x50D83AA1)
-	printOK()
 
 	// Disable both watchdog timers that are enabled by default on startup.
 	// Note that these watchdogs can be protected, but the ROM bootloader
 	// doesn't seem to protect them.
 	getRTCCNTL().WDTCONFIG0.Set(0)
-	printOK()
 
 	getTIMG().WDTCONFIG0.Set(0)
-	printOK()
 
 	// Switch SoC clock source to PLL (instead of the default which is XTAL).
 	// This switches the CPU (and APB) clock from 40MHz to 80MHz.
@@ -108,10 +116,6 @@ func main() {
 		(2 << RTC_CNTL_CLK_CONF_CK8M_DIV_SEL_Pos) |
 		(1 << RTC_CNTL_CLK_CONF_DIG_CLK8M_D256_EN_Pos) |
 		(1 << RTC_CNTL_CLK_CONF_CK8M_DIV_Pos))
-	printOK()
-
-	clearbss()
-	printOK()
 
 	getTIMG().T0CONFIG.Set(TIMG_T0CONFIG_EN | TIMG_T0CONFIG_INCREASE | 2<<TIMG_T0CONFIG_DIVIDER_Pos)
 	// esp.TIMG0.T0CONFIG.Set(1 << esp.TIMG_T0CONFIG_T0_DIVCNT_RST_Pos)
@@ -123,14 +127,13 @@ func main() {
 	getTIMG().T0LOAD.Set(0)
 
 	enableButton()
-	printOK()
+
+	c.Printf(c.Str("111"))
 
 	// // 主循环 - 可以添加按钮状态检测
 	for {
-		if getButtonStatus() {
-			printHigh()
-		} else {
-			printLow()
+		if !getButtonStatus() {
+			printDone()
 		}
 	}
 }

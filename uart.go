@@ -12,6 +12,7 @@ func getUART() *UART_Type {
 	return (*UART_Type)(unsafe.Pointer(uintptr(0x3ff40000)))
 }
 
+// export writeByte
 func writeByte(b byte) {
 	uart := getUART()
 	for (uart.STATUS.Get()>>16)&0xff >= 128 {
