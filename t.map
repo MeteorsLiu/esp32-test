@@ -1,0 +1,743 @@
+     VMA      LMA     Size Align Out     In      Symbol
+40080000 40080000      4c7     4 .text
+40080000 40080000        8     4         /var/folders/pv/gbykvjcs7f100fs0pcgdd2lr0000gn/T/extra-2438305274esp32.S.o:(.literal.call_start_cpu0)
+40080008 40080008       43     1         /var/folders/pv/gbykvjcs7f100fs0pcgdd2lr0000gn/T/extra-2438305274esp32.S.o:(.text.call_start_cpu0)
+4008000c 4008000c        0     1                 call_start_cpu0
+4008004c 4008004c       1a     4         /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o:(.text.llgo-test/volatile.(*Register32).ClearBits)
+4008004c 4008004c       1a     1                 llgo-test/volatile.(*Register32).ClearBits
+40080068 40080068        a     4         /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o:(.text.llgo-test/volatile.(*Register32).Get)
+40080068 40080068        a     1                 llgo-test/volatile.(*Register32).Get
+40080074 40080074        d     4         /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o:(.text.llgo-test/volatile.(*Register32).Set)
+40080074 40080074        d     1                 llgo-test/volatile.(*Register32).Set
+40080084 40080084       15     4         /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o:(.text.llgo-test/volatile.(*Register32).SetBits)
+40080084 40080084       15     1                 llgo-test/volatile.(*Register32).SetBits
+4008009c 4008009c       14     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.clearbss)
+400800b0 400800b0       6d     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.clearbss)
+400800b0 400800b0       6d     1                 llgo-test.clearbss
+40080120 40080120       10     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.enableButton)
+40080130 40080130       29     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.enableButton)
+40080130 40080130       29     1                 llgo-test.enableButton
+4008015c 4008015c        8     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.getButtonStatus)
+40080164 40080164       1c     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.getButtonStatus)
+40080164 40080164       1c     1                 llgo-test.getButtonStatus
+40080180 40080180        4     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.getGPIO)
+40080184 40080184        8     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.getGPIO)
+40080184 40080184        8     1                 llgo-test.getGPIO
+4008018c 4008018c        4     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.getIOMUX)
+40080190 40080190        8     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.getIOMUX)
+40080190 40080190        8     1                 llgo-test.getIOMUX
+40080198 40080198        4     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.getRTCCNTL)
+4008019c 4008019c        8     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.getRTCCNTL)
+4008019c 4008019c        8     1                 llgo-test.getRTCCNTL
+400801a4 400801a4        4     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.getTIMG)
+400801a8 400801a8        8     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.getTIMG)
+400801a8 400801a8        8     1                 llgo-test.getTIMG
+400801b0 400801b0        4     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.getUART)
+400801b4 400801b4        8     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.getUART)
+400801b4 400801b4        8     1                 llgo-test.getUART
+400801bc 400801bc       21     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.hexDigitToChar)
+400801bc 400801bc       21     1                 llgo-test.hexDigitToChar
+400801e0 400801e0        4     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.init)
+400801e4 400801e4       1c     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.init)
+400801e4 400801e4       1c     1                 llgo-test.init
+40080200 40080200       18     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.initUART)
+40080218 40080218       41     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.initUART)
+40080218 40080218       41     1                 llgo-test.initUART
+4008025c 4008025c       34     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.main)
+40080290 40080290       c2     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.main)
+40080290 40080290       c2     1                 llgo-test.main
+40080354 40080354        4     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.printDone)
+40080358 40080358       32     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.printDone)
+40080358 40080358       32     1                 llgo-test.printDone
+4008038c 4008038c        8     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.printInt32Hex)
+40080394 40080394       69     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.printInt32Hex)
+40080394 40080394       69     1                 llgo-test.printInt32Hex
+40080400 40080400        4     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.printIntHex)
+40080404 40080404        d     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.printIntHex)
+40080404 40080404        d     1                 llgo-test.printIntHex
+40080414 40080414        4     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.printOK)
+40080418 40080418       24     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.printOK)
+40080418 40080418       24     1                 llgo-test.printOK
+4008043c 4008043c        c     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.literal.llgo-test.writeByte)
+40080448 40080448       3f     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.text.llgo-test.writeByte)
+40080448 40080448       3f     1                 llgo-test.writeByte
+40080488 40080488        5     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o-main.o:(.text.runtime.init)
+40080488 40080488        5     1                 runtime.init
+40080490 40080490       14     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o-main.o:(.literal.main)
+400804a4 400804a4       23     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o-main.o:(.text.main)
+400804a4 400804a4       23     1                 main
+3ffae000 3ffae000     1000     1 .stack
+3ffae000 3ffae000        0     1         . = ALIGN ( 16 )
+3ffae000 3ffae000     1000     1         . += _stack_size
+3ffaf000 3ffaf000        0     1         _stack_top = .
+3ffaf000 3ffaf000        4     4 .rodata
+3ffaf000 3ffaf000        4     1         <internal>:(.rodata.str1.1)
+3ffaf004 3ffaf004        0     4 .data
+3ffaf004 3ffaf004        0     1         _sdata = ABSOLUTE ( . )
+3ffaf004 3ffaf004        0     1         _edata = ABSOLUTE ( . )
+3ffaf004 3ffaf004        0     1 
+3ffaf008 3ffaf008        c     8 .bss
+3ffaf008 3ffaf008        0     1         . = ALIGN ( 4 )
+3ffaf008 3ffaf008        0     1         _sbss = ABSOLUTE ( . )
+3ffaf008 3ffaf008        1     1         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o:(.bss.llgo-test.init$guard)
+3ffaf008 3ffaf008        1     1                 llgo-test.init$guard
+3ffaf00c 3ffaf00c        4     4         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o-main.o:(.bss.__llgo_argc)
+3ffaf00c 3ffaf00c        4     1                 __llgo_argc
+3ffaf010 3ffaf010        4     8         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o-main.o:(.bss.__llgo_argv)
+3ffaf010 3ffaf010        4     1                 __llgo_argv
+3ffaf014 3ffaf014        0     1         . = ALIGN ( 4 )
+3ffaf014 3ffaf014        0     1         _ebss = ABSOLUTE ( . )
+3ffaf014 3ffaf014        0     1 _globals_start = _sdata
+3ffaf014 3ffaf014        0     1 _globals_end = _ebss
+3ffaf014 3ffaf014        0     1 _heap_start = _ebss
+3ffaf014 3ffaf014        0     1 _heap_end = ORIGIN ( DRAM ) + LENGTH ( DRAM )
+3ffaf014 3ffaf014        0     1 _stack_size = 4K
+3ffaf014 3ffaf014        0     1 __absvdi2 = 0x4006387c
+3ffaf014 3ffaf014        0     1 __absvsi2 = 0x40063868
+3ffaf014 3ffaf014        0     1 __adddf3 = 0x40002590
+3ffaf014 3ffaf014        0     1 __addsf3 = 0x400020e8
+3ffaf014 3ffaf014        0     1 __addvdi3 = 0x40002cbc
+3ffaf014 3ffaf014        0     1 __addvsi3 = 0x40002c98
+3ffaf014 3ffaf014        0     1 __ashldi3 = 0x4000c818
+3ffaf014 3ffaf014        0     1 __ashrdi3 = 0x4000c830
+3ffaf014 3ffaf014        0     1 __bswapdi2 = 0x40064b08
+3ffaf014 3ffaf014        0     1 __bswapsi2 = 0x40064ae0
+3ffaf014 3ffaf014        0     1 __clrsbdi2 = 0x40064b7c
+3ffaf014 3ffaf014        0     1 __clrsbsi2 = 0x40064b64
+3ffaf014 3ffaf014        0     1 __clzdi2 = 0x4000ca50
+3ffaf014 3ffaf014        0     1 __clzsi2 = 0x4000c7e8
+3ffaf014 3ffaf014        0     1 __cmpdi2 = 0x40063820
+3ffaf014 3ffaf014        0     1 __ctzdi2 = 0x4000ca64
+3ffaf014 3ffaf014        0     1 __ctzsi2 = 0x4000c7f0
+3ffaf014 3ffaf014        0     1 __divdc3 = 0x400645a4
+3ffaf014 3ffaf014        0     1 __divdf3 = 0x40002954
+3ffaf014 3ffaf014        0     1 __divdi3 = 0x4000ca84
+3ffaf014 3ffaf014        0     1 __divsi3 = 0x4000c7b8
+3ffaf014 3ffaf014        0     1 __eqdf2 = 0x400636a8
+3ffaf014 3ffaf014        0     1 __eqsf2 = 0x40063374
+3ffaf014 3ffaf014        0     1 __extendsfdf2 = 0x40002c34
+3ffaf014 3ffaf014        0     1 __ffsdi2 = 0x4000ca2c
+3ffaf014 3ffaf014        0     1 __ffssi2 = 0x4000c804
+3ffaf014 3ffaf014        0     1 __fixdfdi = 0x40002ac4
+3ffaf014 3ffaf014        0     1 __fixdfsi = 0x40002a78
+3ffaf014 3ffaf014        0     1 __fixsfdi = 0x4000244c
+3ffaf014 3ffaf014        0     1 __fixsfsi = 0x4000240c
+3ffaf014 3ffaf014        0     1 __fixunsdfsi = 0x40002b30
+3ffaf014 3ffaf014        0     1 __fixunssfdi = 0x40002504
+3ffaf014 3ffaf014        0     1 __fixunssfsi = 0x400024ac
+3ffaf014 3ffaf014        0     1 __floatdidf = 0x4000c988
+3ffaf014 3ffaf014        0     1 __floatdisf = 0x4000c8c0
+3ffaf014 3ffaf014        0     1 __floatsidf = 0x4000c944
+3ffaf014 3ffaf014        0     1 __floatsisf = 0x4000c870
+3ffaf014 3ffaf014        0     1 __floatundidf = 0x4000c978
+3ffaf014 3ffaf014        0     1 __floatundisf = 0x4000c8b0
+3ffaf014 3ffaf014        0     1 __floatunsidf = 0x4000c938
+3ffaf014 3ffaf014        0     1 __floatunsisf = 0x4000c864
+3ffaf014 3ffaf014        0     1 __gcc_bcmp = 0x40064a70
+3ffaf014 3ffaf014        0     1 __gedf2 = 0x40063768
+3ffaf014 3ffaf014        0     1 __gesf2 = 0x4006340c
+3ffaf014 3ffaf014        0     1 __gtdf2 = 0x400636dc
+3ffaf014 3ffaf014        0     1 __gtsf2 = 0x400633a0
+3ffaf014 3ffaf014        0     1 __ledf2 = 0x40063704
+3ffaf014 3ffaf014        0     1 __lesf2 = 0x400633c0
+3ffaf014 3ffaf014        0     1 __lshrdi3 = 0x4000c84c
+3ffaf014 3ffaf014        0     1 __ltdf2 = 0x40063790
+3ffaf014 3ffaf014        0     1 __ltsf2 = 0x4006342c
+3ffaf014 3ffaf014        0     1 __moddi3 = 0x4000cd4c
+3ffaf014 3ffaf014        0     1 __modsi3 = 0x4000c7c0
+3ffaf014 3ffaf014        0     1 __muldc3 = 0x40063c90
+3ffaf014 3ffaf014        0     1 __muldf3 = 0x4006358c
+3ffaf014 3ffaf014        0     1 __muldi3 = 0x4000c9fc
+3ffaf014 3ffaf014        0     1 __mulsf3 = 0x400632c8
+3ffaf014 3ffaf014        0     1 __mulsi3 = 0x4000c7b0
+3ffaf014 3ffaf014        0     1 __mulvdi3 = 0x40002d78
+3ffaf014 3ffaf014        0     1 __mulvsi3 = 0x40002d60
+3ffaf014 3ffaf014        0     1 __nedf2 = 0x400636a8
+3ffaf014 3ffaf014        0     1 __negdf2 = 0x400634a0
+3ffaf014 3ffaf014        0     1 __negdi2 = 0x4000ca14
+3ffaf014 3ffaf014        0     1 __negsf2 = 0x400020c0
+3ffaf014 3ffaf014        0     1 __negvdi2 = 0x40002e98
+3ffaf014 3ffaf014        0     1 __negvsi2 = 0x40002e78
+3ffaf014 3ffaf014        0     1 __nesf2 = 0x40063374
+3ffaf014 3ffaf014        0     1 __nsau_data = 0x3ff96544
+3ffaf014 3ffaf014        0     1 __paritysi2 = 0x40002f3c
+3ffaf014 3ffaf014        0     1 __popcount_tab = 0x3ff96544
+3ffaf014 3ffaf014        0     1 __popcountdi2 = 0x40002ef8
+3ffaf014 3ffaf014        0     1 __popcountsi2 = 0x40002ed0
+3ffaf014 3ffaf014        0     1 __powidf2 = 0x400638e4
+3ffaf014 3ffaf014        0     1 __subdf3 = 0x400026e4
+3ffaf014 3ffaf014        0     1 __subsf3 = 0x400021d0
+3ffaf014 3ffaf014        0     1 __subvdi3 = 0x40002d20
+3ffaf014 3ffaf014        0     1 __subvsi3 = 0x40002cf8
+3ffaf014 3ffaf014        0     1 __truncdfsf2 = 0x40002b90
+3ffaf014 3ffaf014        0     1 __ucmpdi2 = 0x40063840
+3ffaf014 3ffaf014        0     1 __udiv_w_sdiv = 0x40064bec
+3ffaf014 3ffaf014        0     1 __udivdi3 = 0x4000cff8
+3ffaf014 3ffaf014        0     1 __udivmoddi4 = 0x40064bf4
+3ffaf014 3ffaf014        0     1 __udivsi3 = 0x4000c7c8
+3ffaf014 3ffaf014        0     1 __umoddi3 = 0x4000d280
+3ffaf014 3ffaf014        0     1 __umodsi3 = 0x4000c7d0
+3ffaf014 3ffaf014        0     1 __umulsidi3 = 0x4000c7d8
+3ffaf014 3ffaf014        0     1 __unorddf2 = 0x400637f4
+3ffaf014 3ffaf014        0     1 __unordsf2 = 0x40063478
+3ffaf014 3ffaf014        0     1 _ctype_ = 0x3ff96354
+3ffaf014 3ffaf014        0     1 __ctype_ptr__ = 0x3ff96350
+3ffaf014 3ffaf014        0     1 environ = 0x3ffae0b4
+3ffaf014 3ffaf014        0     1 _global_impure_ptr = 0x3ffae0b0
+3ffaf014 3ffaf014        0     1 __mb_cur_max = 0x3ff96530
+3ffaf014 3ffaf014        0     1 __sf_fake_stderr = 0x3ff96458
+3ffaf014 3ffaf014        0     1 __sf_fake_stdin = 0x3ff96498
+3ffaf014 3ffaf014        0     1 __sf_fake_stdout = 0x3ff96478
+3ffaf014 3ffaf014        0     1 __wctomb = 0x3ff96540
+3ffaf014 3ffaf014        0     1 __sfp_lock = 0x3ffae0ac
+3ffaf014 3ffaf014        0     1 __sinit_lock = 0x3ffae0a8
+3ffaf014 3ffaf014        0     1 __env_lock_object = 0x3ffae0b8
+3ffaf014 3ffaf014        0     1 __tz_lock_object = 0x3ffae080
+3ffaf014 3ffaf014        0     1 abs = 0x40056340
+3ffaf014 3ffaf014        0     1 __ascii_wctomb = 0x40058ef0
+3ffaf014 3ffaf014        0     1 atoi = 0x400566c4
+3ffaf014 3ffaf014        0     1 _atoi_r = 0x400566d4
+3ffaf014 3ffaf014        0     1 atol = 0x400566ec
+3ffaf014 3ffaf014        0     1 _atol_r = 0x400566fc
+3ffaf014 3ffaf014        0     1 bzero = 0x4000c1f4
+3ffaf014 3ffaf014        0     1 _cleanup = 0x40001df8
+3ffaf014 3ffaf014        0     1 _cleanup_r = 0x40001d48
+3ffaf014 3ffaf014        0     1 creat = 0x40000e8c
+3ffaf014 3ffaf014        0     1 div = 0x40056348
+3ffaf014 3ffaf014        0     1 __dummy_lock = 0x4000c728
+3ffaf014 3ffaf014        0     1 __dummy_lock_try = 0x4000c730
+3ffaf014 3ffaf014        0     1 __env_lock = 0x40001fd4
+3ffaf014 3ffaf014        0     1 __env_unlock = 0x40001fe0
+3ffaf014 3ffaf014        0     1 fclose = 0x400020ac
+3ffaf014 3ffaf014        0     1 _fclose_r = 0x40001fec
+3ffaf014 3ffaf014        0     1 fflush = 0x40059394
+3ffaf014 3ffaf014        0     1 _fflush_r = 0x40059320
+3ffaf014 3ffaf014        0     1 _findenv_r = 0x40001f44
+3ffaf014 3ffaf014        0     1 __fp_lock_all = 0x40001f1c
+3ffaf014 3ffaf014        0     1 __fp_unlock_all = 0x40001f30
+3ffaf014 3ffaf014        0     1 __fputwc = 0x40058da0
+3ffaf014 3ffaf014        0     1 fputwc = 0x40058ea8
+3ffaf014 3ffaf014        0     1 _fputwc_r = 0x40058e4c
+3ffaf014 3ffaf014        0     1 _fwalk = 0x4000c738
+3ffaf014 3ffaf014        0     1 _fwalk_reent = 0x4000c770
+3ffaf014 3ffaf014        0     1 _getenv_r = 0x40001fbc
+3ffaf014 3ffaf014        0     1 isalnum = 0x40000f04
+3ffaf014 3ffaf014        0     1 isalpha = 0x40000f18
+3ffaf014 3ffaf014        0     1 isascii = 0x4000c20c
+3ffaf014 3ffaf014        0     1 isblank = 0x40000f2c
+3ffaf014 3ffaf014        0     1 iscntrl = 0x40000f50
+3ffaf014 3ffaf014        0     1 isdigit = 0x40000f64
+3ffaf014 3ffaf014        0     1 isgraph = 0x40000f94
+3ffaf014 3ffaf014        0     1 islower = 0x40000f78
+3ffaf014 3ffaf014        0     1 isprint = 0x40000fa8
+3ffaf014 3ffaf014        0     1 ispunct = 0x40000fc0
+3ffaf014 3ffaf014        0     1 isspace = 0x40000fd4
+3ffaf014 3ffaf014        0     1 isupper = 0x40000fe8
+3ffaf014 3ffaf014        0     1 __itoa = 0x40056678
+3ffaf014 3ffaf014        0     1 itoa = 0x400566b4
+3ffaf014 3ffaf014        0     1 labs = 0x40056370
+3ffaf014 3ffaf014        0     1 ldiv = 0x40056378
+3ffaf014 3ffaf014        0     1 longjmp = 0x400562cc
+3ffaf014 3ffaf014        0     1 memccpy = 0x4000c220
+3ffaf014 3ffaf014        0     1 memchr = 0x4000c244
+3ffaf014 3ffaf014        0     1 memcmp = 0x4000c260
+3ffaf014 3ffaf014        0     1 memcpy = 0x4000c2c8
+3ffaf014 3ffaf014        0     1 memmove = 0x4000c3c0
+3ffaf014 3ffaf014        0     1 memrchr = 0x4000c400
+3ffaf014 3ffaf014        0     1 memset = 0x4000c44c
+3ffaf014 3ffaf014        0     1 qsort = 0x40056424
+3ffaf014 3ffaf014        0     1 rand = 0x40001058
+3ffaf014 3ffaf014        0     1 rand_r = 0x400010d4
+3ffaf014 3ffaf014        0     1 __sccl = 0x4000c498
+3ffaf014 3ffaf014        0     1 __sclose = 0x400011b8
+3ffaf014 3ffaf014        0     1 __seofread = 0x40001148
+3ffaf014 3ffaf014        0     1 setjmp = 0x40056268
+3ffaf014 3ffaf014        0     1 __sflush_r = 0x400591e0
+3ffaf014 3ffaf014        0     1 __sfmoreglue = 0x40001dc8
+3ffaf014 3ffaf014        0     1 __sfp = 0x40001e90
+3ffaf014 3ffaf014        0     1 __sfp_lock_acquire = 0x40001e08
+3ffaf014 3ffaf014        0     1 __sfp_lock_release = 0x40001e14
+3ffaf014 3ffaf014        0     1 __sinit = 0x40001e38
+3ffaf014 3ffaf014        0     1 __sinit_lock_acquire = 0x40001e20
+3ffaf014 3ffaf014        0     1 __sinit_lock_release = 0x40001e2c
+3ffaf014 3ffaf014        0     1 srand = 0x40001004
+3ffaf014 3ffaf014        0     1 __sread = 0x40001118
+3ffaf014 3ffaf014        0     1 __sseek = 0x40001184
+3ffaf014 3ffaf014        0     1 strcasecmp = 0x400011cc
+3ffaf014 3ffaf014        0     1 strcasestr = 0x40001210
+3ffaf014 3ffaf014        0     1 strcat = 0x4000c518
+3ffaf014 3ffaf014        0     1 strchr = 0x4000c53c
+3ffaf014 3ffaf014        0     1 strcmp = 0x40001274
+3ffaf014 3ffaf014        0     1 strcoll = 0x40001398
+3ffaf014 3ffaf014        0     1 strcpy = 0x400013ac
+3ffaf014 3ffaf014        0     1 strcspn = 0x4000c558
+3ffaf014 3ffaf014        0     1 strdup = 0x4000143c
+3ffaf014 3ffaf014        0     1 _strdup_r = 0x40001450
+3ffaf014 3ffaf014        0     1 strlcat = 0x40001470
+3ffaf014 3ffaf014        0     1 strlcpy = 0x4000c584
+3ffaf014 3ffaf014        0     1 strlen = 0x400014c0
+3ffaf014 3ffaf014        0     1 strlwr = 0x40001524
+3ffaf014 3ffaf014        0     1 strncasecmp = 0x40001550
+3ffaf014 3ffaf014        0     1 strncat = 0x4000c5c4
+3ffaf014 3ffaf014        0     1 strncmp = 0x4000c5f4
+3ffaf014 3ffaf014        0     1 strncpy = 0x400015d4
+3ffaf014 3ffaf014        0     1 strndup = 0x400016b0
+3ffaf014 3ffaf014        0     1 _strndup_r = 0x400016c4
+3ffaf014 3ffaf014        0     1 strnlen = 0x4000c628
+3ffaf014 3ffaf014        0     1 strrchr = 0x40001708
+3ffaf014 3ffaf014        0     1 strsep = 0x40001734
+3ffaf014 3ffaf014        0     1 strspn = 0x4000c648
+3ffaf014 3ffaf014        0     1 strstr = 0x4000c674
+3ffaf014 3ffaf014        0     1 __strtok_r = 0x4000c6a8
+3ffaf014 3ffaf014        0     1 strtok_r = 0x4000c70c
+3ffaf014 3ffaf014        0     1 strtol = 0x4005681c
+3ffaf014 3ffaf014        0     1 _strtol_r = 0x40056714
+3ffaf014 3ffaf014        0     1 strtoul = 0x4005692c
+3ffaf014 3ffaf014        0     1 _strtoul_r = 0x40056834
+3ffaf014 3ffaf014        0     1 strupr = 0x4000174c
+3ffaf014 3ffaf014        0     1 __submore = 0x40058f3c
+3ffaf014 3ffaf014        0     1 __swbuf = 0x40058cb4
+3ffaf014 3ffaf014        0     1 __swbuf_r = 0x40058bec
+3ffaf014 3ffaf014        0     1 __swrite = 0x40001150
+3ffaf014 3ffaf014        0     1 toascii = 0x4000c720
+3ffaf014 3ffaf014        0     1 tolower = 0x40001868
+3ffaf014 3ffaf014        0     1 toupper = 0x40001884
+3ffaf014 3ffaf014        0     1 ungetc = 0x400590f4
+3ffaf014 3ffaf014        0     1 _ungetc_r = 0x40058fa0
+3ffaf014 3ffaf014        0     1 __utoa = 0x400561f0
+3ffaf014 3ffaf014        0     1 utoa = 0x40056258
+3ffaf014 3ffaf014        0     1 wcrtomb = 0x40058920
+3ffaf014 3ffaf014        0     1 _wcrtomb_r = 0x400588d8
+3ffaf014 3ffaf014        0     1 _wctomb_r = 0x40058f14
+3ffaf014 3ffaf014        0     1 __locale_charset = 0x40059540
+3ffaf014 3ffaf014        0     1 __locale_cjk_lang = 0x40059558
+3ffaf014 3ffaf014        0     1 localeconv = 0x4005957c
+3ffaf014 3ffaf014        0     1 _localeconv_r = 0x40059560
+3ffaf014 3ffaf014        0     1 __locale_mb_cur_max = 0x40059548
+3ffaf014 3ffaf014        0     1 __locale_msgcharset = 0x40059550
+3ffaf014 3ffaf014        0     1 setlocale = 0x40059568
+3ffaf014 3ffaf014        0     1 _setlocale_r = 0x4005950c
+3ffaf014 3ffaf014        0     1 asiprintf = 0x40056d9c
+3ffaf014 3ffaf014        0     1 _asiprintf_r = 0x40056d4c
+3ffaf014 3ffaf014        0     1 asniprintf = 0x40056cd8
+3ffaf014 3ffaf014        0     1 _asniprintf_r = 0x40056c64
+3ffaf014 3ffaf014        0     1 asnprintf = 0x40056cd8
+3ffaf014 3ffaf014        0     1 _asnprintf_r = 0x40056c64
+3ffaf014 3ffaf014        0     1 asprintf = 0x40056d9c
+3ffaf014 3ffaf014        0     1 _asprintf_r = 0x40056d4c
+3ffaf014 3ffaf014        0     1 fiprintf = 0x40056efc
+3ffaf014 3ffaf014        0     1 _fiprintf_r = 0x40056ed8
+3ffaf014 3ffaf014        0     1 fiscanf = 0x40058884
+3ffaf014 3ffaf014        0     1 _fiscanf_r = 0x400588b4
+3ffaf014 3ffaf014        0     1 fprintf = 0x40056efc
+3ffaf014 3ffaf014        0     1 _fprintf_r = 0x40056ed8
+3ffaf014 3ffaf014        0     1 fscanf = 0x40058884
+3ffaf014 3ffaf014        0     1 _fscanf_r = 0x400588b4
+3ffaf014 3ffaf014        0     1 iprintf = 0x40056978
+3ffaf014 3ffaf014        0     1 _iprintf_r = 0x40056944
+3ffaf014 3ffaf014        0     1 iscanf = 0x40058760
+3ffaf014 3ffaf014        0     1 _iscanf_r = 0x4005879c
+3ffaf014 3ffaf014        0     1 printf = 0x40056978
+3ffaf014 3ffaf014        0     1 _printf_common = 0x40057338
+3ffaf014 3ffaf014        0     1 _printf_i = 0x40057404
+3ffaf014 3ffaf014        0     1 _printf_r = 0x40056944
+3ffaf014 3ffaf014        0     1 scanf = 0x40058760
+3ffaf014 3ffaf014        0     1 _scanf_chars = 0x40058384
+3ffaf014 3ffaf014        0     1 _scanf_i = 0x4005845c
+3ffaf014 3ffaf014        0     1 _scanf_r = 0x4005879c
+3ffaf014 3ffaf014        0     1 __sfputs_r = 0x40057790
+3ffaf014 3ffaf014        0     1 siprintf = 0x40056c08
+3ffaf014 3ffaf014        0     1 _siprintf_r = 0x40056bbc
+3ffaf014 3ffaf014        0     1 siscanf = 0x400587d0
+3ffaf014 3ffaf014        0     1 _siscanf_r = 0x40058830
+3ffaf014 3ffaf014        0     1 sniprintf = 0x40056b4c
+3ffaf014 3ffaf014        0     1 _sniprintf_r = 0x40056ae4
+3ffaf014 3ffaf014        0     1 snprintf = 0x40056b4c
+3ffaf014 3ffaf014        0     1 _snprintf_r = 0x40056ae4
+3ffaf014 3ffaf014        0     1 sprintf = 0x40056c08
+3ffaf014 3ffaf014        0     1 _sprintf_r = 0x40056bbc
+3ffaf014 3ffaf014        0     1 __sprint_r = 0x400577e4
+3ffaf014 3ffaf014        0     1 sscanf = 0x400587d0
+3ffaf014 3ffaf014        0     1 _sscanf_r = 0x40058830
+3ffaf014 3ffaf014        0     1 __ssprint_r = 0x40056ff8
+3ffaf014 3ffaf014        0     1 __ssputs_r = 0x40056f2c
+3ffaf014 3ffaf014        0     1 __ssrefill_r = 0x40057fec
+3ffaf014 3ffaf014        0     1 __ssvfiscanf_r = 0x4005802c
+3ffaf014 3ffaf014        0     1 __ssvfscanf_r = 0x4005802c
+3ffaf014 3ffaf014        0     1 _sungetc_r = 0x40057f6c
+3ffaf014 3ffaf014        0     1 _svfiprintf_r = 0x40057100
+3ffaf014 3ffaf014        0     1 __svfiscanf_r = 0x40057b08
+3ffaf014 3ffaf014        0     1 _svfprintf_r = 0x40057100
+3ffaf014 3ffaf014        0     1 __svfscanf = 0x40057f04
+3ffaf014 3ffaf014        0     1 __svfscanf_r = 0x40057b08
+3ffaf014 3ffaf014        0     1 vasiprintf = 0x40056eb8
+3ffaf014 3ffaf014        0     1 _vasiprintf_r = 0x40056e80
+3ffaf014 3ffaf014        0     1 vasniprintf = 0x40056e58
+3ffaf014 3ffaf014        0     1 _vasniprintf_r = 0x40056df8
+3ffaf014 3ffaf014        0     1 vasnprintf = 0x40056e58
+3ffaf014 3ffaf014        0     1 _vasnprintf_r = 0x40056df8
+3ffaf014 3ffaf014        0     1 vasprintf = 0x40056eb8
+3ffaf014 3ffaf014        0     1 _vasprintf_r = 0x40056e80
+3ffaf014 3ffaf014        0     1 vfiprintf = 0x40057ae8
+3ffaf014 3ffaf014        0     1 _vfiprintf_r = 0x40057850
+3ffaf014 3ffaf014        0     1 vfiscanf = 0x40057eb8
+3ffaf014 3ffaf014        0     1 _vfiscanf_r = 0x40057f24
+3ffaf014 3ffaf014        0     1 vfprintf = 0x40057ae8
+3ffaf014 3ffaf014        0     1 _vfprintf_r = 0x40057850
+3ffaf014 3ffaf014        0     1 vfscanf = 0x40057eb8
+3ffaf014 3ffaf014        0     1 _vfscanf_r = 0x40057f24
+3ffaf014 3ffaf014        0     1 viprintf = 0x400569b4
+3ffaf014 3ffaf014        0     1 _viprintf_r = 0x400569e4
+3ffaf014 3ffaf014        0     1 viscanf = 0x40058698
+3ffaf014 3ffaf014        0     1 _viscanf_r = 0x400586c8
+3ffaf014 3ffaf014        0     1 vprintf = 0x400569b4
+3ffaf014 3ffaf014        0     1 _vprintf_r = 0x400569e4
+3ffaf014 3ffaf014        0     1 vscanf = 0x40058698
+3ffaf014 3ffaf014        0     1 _vscanf_r = 0x400586c8
+3ffaf014 3ffaf014        0     1 vsiprintf = 0x40056ac4
+3ffaf014 3ffaf014        0     1 _vsiprintf_r = 0x40056a90
+3ffaf014 3ffaf014        0     1 vsiscanf = 0x40058740
+3ffaf014 3ffaf014        0     1 _vsiscanf_r = 0x400586f8
+3ffaf014 3ffaf014        0     1 vsniprintf = 0x40056a68
+3ffaf014 3ffaf014        0     1 _vsniprintf_r = 0x40056a14
+3ffaf014 3ffaf014        0     1 vsnprintf = 0x40056a68
+3ffaf014 3ffaf014        0     1 _vsnprintf_r = 0x40056a14
+3ffaf014 3ffaf014        0     1 vsprintf = 0x40056ac4
+3ffaf014 3ffaf014        0     1 _vsprintf_r = 0x40056a90
+3ffaf014 3ffaf014        0     1 vsscanf = 0x40058740
+3ffaf014 3ffaf014        0     1 _vsscanf_r = 0x400586f8
+3ffaf014 3ffaf014        0     1 asctime = 0x40059588
+3ffaf014 3ffaf014        0     1 asctime_r = 0x40000ec8
+3ffaf014 3ffaf014        0     1 ctime = 0x400595b0
+3ffaf014 3ffaf014        0     1 ctime_r = 0x400595c4
+3ffaf014 3ffaf014        0     1 __gettzinfo = 0x40001fcc
+3ffaf014 3ffaf014        0     1 __get_current_time_locale = 0x40001834
+3ffaf014 3ffaf014        0     1 gmtime = 0x40059848
+3ffaf014 3ffaf014        0     1 gmtime_r = 0x40059868
+3ffaf014 3ffaf014        0     1 localtime = 0x400595dc
+3ffaf014 3ffaf014        0     1 localtime_r = 0x400595fc
+3ffaf014 3ffaf014        0     1 mktime = 0x4005a5e8
+3ffaf014 3ffaf014        0     1 strftime = 0x40059ab4
+3ffaf014 3ffaf014        0     1 time = 0x40001844
+3ffaf014 3ffaf014        0     1 __time_load_locale = 0x4000183c
+3ffaf014 3ffaf014        0     1 tzset = 0x40001a1c
+3ffaf014 3ffaf014        0     1 _tzset_r = 0x40001a28
+3ffaf014 3ffaf014        0     1 __tzcalc_limits = 0x400018a0
+3ffaf014 3ffaf014        0     1 __tz_lock = 0x40001a04
+3ffaf014 3ffaf014        0     1 __tz_unlock = 0x40001a10
+3ffaf014 3ffaf014        0     1 _timezone = 0x3ffae0a0
+3ffaf014 3ffaf014        0     1 _tzname = 0x3ffae030
+3ffaf014 3ffaf014        0     1 _daylight = 0x3ffae0a4
+3ffaf014 3ffaf014        0     1 __month_lengths = 0x3ff9609c
+3ffaf014 3ffaf014        0     1 _isatty_r = 0x40000ea0
+3ffaf014 3ffaf014        0     1 __sfvwrite_r = 0x4005893c
+3ffaf014 3ffaf014        0     1 __smakebuf_r = 0x40059108
+3ffaf014 3ffaf014        0     1 __srefill_r = 0x400593d4
+3ffaf014 3ffaf014        0     1 __swsetup_r = 0x40058cc8
+       0        0       d3     1 .comment
+       0        0       d3     1         <internal>:(.comment)
+       0        0     28a0     4 .symtab
+       0        0     28a0     4         <internal>:(.symtab)
+       0        0       44     1 .shstrtab
+       0        0       44     1         <internal>:(.shstrtab)
+       0        0     1b88     1 .strtab
+       0        0     1b88     1         <internal>:(.strtab)
+
+Cross Reference Table
+
+Symbol                                            File
+memcmp                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:62
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dbcmp.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dmemcmp.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dmemmem.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrstr.c.o
+memmove                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:64
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dbcopy.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dmemmove.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dwmemmove.c.o
+memset                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:66
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dbzero.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dexplicit_bzero.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dmemmem.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dmemset.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrstr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dnano-malloc.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dnano-realloc.c.o
+                                                  /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+bzero                                             /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:21
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dbzero.c.o
+strrchr                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:106
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dgnu_basename.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-drindex.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrrchr.c.o
+strchr                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:88
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dindex.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrchr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrchrnul.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrrchr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrstr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvffscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfiscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvflscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfmscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfwscanf.c.o
+memccpy                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:60
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dmemccpy.c.o
+memchr                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:61
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dmemchr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dmemmem.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcasestr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrnstr.c.o
+memcpy                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:63
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dmemcpy.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrndup.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dwmemcpy.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dwmempcpy.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dxpg_strerror_r.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dnano-realloc.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfdopen.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfilestrputalloc.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfmemopen.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfunopen.c.o
+memrchr                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:65
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dmemrchr.c.o
+tolower                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:122
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcasecmp.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcasestr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrlwr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrncasecmp.c.o
+strcasecmp                                        /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:85
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcasecmp.c.o
+strncasecmp                                       /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:99
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcasestr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrncasecmp.c.o
+strcasestr                                        /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:86
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcasestr.c.o
+strcpy                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:91
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcat.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcpy.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrerror_r.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dxpg_strerror_r.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dtmpfile.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dtmpnam.c.o
+strcat                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:87
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcat.c.o
+strlen                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:97
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrchrnul.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrerror_r.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrlcat.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrlen.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrstr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dxpg_strerror_r.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dmktemp.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrfroml.c.o
+strcmp                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:89
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcmp.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcoll.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcoll_l.c.o
+strcoll                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:90
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcoll.c.o
+strcspn                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:92
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrcspn.c.o
+strlcat                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:95
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrlcat.c.o
+strlcpy                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:96
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrlcpy.c.o
+strlwr                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:98
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrlwr.c.o
+strncat                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:100
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrncat.c.o
+strncmp                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:101
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrncmp.c.o
+strncpy                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:102
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrncpy.c.o
+strndup                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:103
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrndup.c.o
+strnlen                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:105
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrnlen.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrnstr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrstr.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfmemopen.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvffprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfiprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvflprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfwprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfprintf_s.c.o
+__strtok_r                                        /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:110
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrsep.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtok.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtok_r.c.o
+strsep                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:107
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrsep.c.o
+sprintf                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:61
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrsignal.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dsprintf.c.o
+strspn                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:108
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrspn.c.o
+strstr                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:109
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrstr.c.o
+strtok_r                                          /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:111
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtok_r.c.o
+toupper                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:123
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrupr.c.o
+strupr                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:116
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrupr.c.o
+rand                                              /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:68
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-drand.c.o
+srand                                             /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:82
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dsrand.c.o
+_heap_end                                         /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:96
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dpicolibc.c.o
+_heap_start                                       /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:95
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dpicolibc.c.o
+vasnprintf                                        /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:81
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dasnprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvasnprintf.c.o
+asnprintf                                         /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:28
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dasnprintf.c.o
+vfprintf                                          /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:89
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dasprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dsnprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dsprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvasnprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvasprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvsnprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvsprintf.c.o
+asprintf                                          /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:30
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dasprintf.c.o
+__muldf3                                          /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:160
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-datold_engine.c.o
+__floatundidf                                     /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:143
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-datold_engine.c.o
+__adddf3                                          /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:108
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-datold_engine.c.o
+fflush                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:32
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dbufio.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfdevopen.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfflush.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfreopen.c.o
+fclose                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:30
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfclose.c.o
+fprintf                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:36
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dperror.c.o
+fputwc                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:38
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfputwc.c.o
+vfscanf                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:91
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dsscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvsscanf.c.o
+fscanf                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:38
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dfscanf.c.o
+printf                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:44
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+scanf                                             /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:48
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dscanf.c.o
+snprintf                                          /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:59
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dsnprintf.c.o
+sscanf                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:64
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dsscanf.c.o
+__truncdfsf2                                      /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:183
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtod.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfwscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dwcstod.c.o
+__extendsfdf2                                     /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:129
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtof.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvffscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfwscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dwcstof.c.o
+__udivdi3                                         /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:186
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtoimax.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtoll.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvffprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvflprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfwprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dwcstoimax.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dwcstoll.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfprintf_s.c.o
+__umoddi3                                         /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:189
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtoimax.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtoll.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvffprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvflprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfwprintf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dwcstoimax.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dwcstoll.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfprintf_s.c.o
+strtol                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:112
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtol.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtol_l.c.o
+strtoul                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:114
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtoul.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dstrtoul_l.c.o
+ungetc                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-funcs.ld:124
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dungetc.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvffscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfiscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvflscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfmscanf.c.o
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvfscanf.c.o
+vasprintf                                         /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:83
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvasprintf.c.o
+vprintf                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:97
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvprintf.c.o
+vscanf                                            /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:99
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvscanf.c.o
+vsnprintf                                         /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:107
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvsnprintf.c.o
+vsprintf                                          /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:109
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvsprintf.c.o
+vsscanf                                           /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.rom.newlib-nano.ld:111
+                                                  /Users/haolan/Library/Caches/go-build/ed/ed195f200a24e2ec4365251c9a23ecfd36f2f569e7e7bdc4c1083797c80ef3fb-dvsscanf.c.o
+llgo-test/volatile.(*Register32).ClearBits        /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o
+                                                  /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test/volatile.(*Register32).Get              /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o
+                                                  /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test/volatile.(*Register32).Set              /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o
+                                                  /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test/volatile.(*Register32).SetBits          /Users/haolan/Library/Caches/go-build/72/72552695d71dfac15014606aec003b794d22b55b95f098a54553a20d31401a7e-d.o
+                                                  /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+_sbss                                             /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:83
+                                                  /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+_ebss                                             /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:87
+                                                  /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.printOK                                 /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.printIntHex                             /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.clearbss                                /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.getIOMUX                                /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.getGPIO                                 /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.enableButton                            /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.getButtonStatus                         /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.getRTCCNTL                              /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.getTIMG                                 /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.getUART                                 /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.hexDigitToChar                          /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.init$guard                              /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.init                                    /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+                                                  /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o-main.o
+llgo-test.initUART                                /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.printDone                               /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.main                                    /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+                                                  /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o-main.o
+llgo-test.writeByte                               /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+llgo-test.printInt32Hex                           /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o
+runtime.init                                      /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o-main.o
+main                                              /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o-main.o
+                                                  /var/folders/pv/gbykvjcs7f100fs0pcgdd2lr0000gn/T/extra-2438305274esp32.S.o
+__llgo_argc                                       /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o-main.o
+__llgo_argv                                       /Users/haolan/Library/Caches/go-build/49/495a394ddd6aea02241c6d5034c541754a312f5f20ced523d799740f3c6f66ad-d.o-main.o
+_stack_top                                        /Users/haolan/project/t1/llgo/targets/ld/esp/esp32/esp32.ld:45
+                                                  /var/folders/pv/gbykvjcs7f100fs0pcgdd2lr0000gn/T/extra-2438305274esp32.S.o
+call_start_cpu0                                   /var/folders/pv/gbykvjcs7f100fs0pcgdd2lr0000gn/T/extra-2438305274esp32.S.o

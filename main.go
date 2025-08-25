@@ -4,6 +4,8 @@ import (
 	"unsafe"
 
 	"github.com/goplus/lib/c"
+
+	_ "llgo-test/libc"
 )
 
 // 直接定义硬件地址常量，避免创建全局变量
